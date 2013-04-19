@@ -28,7 +28,7 @@
         _tweets = tweets;
         [_tableView reloadData];
     } errorBlock:^{
-
+        NSLog(@"Request failed!");
     }];
 }
 
